@@ -1,0 +1,138 @@
+body {
+    background-color: gainsboro;
+}
+
+#header {
+    padding: 0px;
+    list-style-type: none;
+    background-color: dodgerblue;
+    height: 180px;
+    width: 1200px;
+    margin-left: 170px;
+
+}
+li {
+    float: left;
+}
+
+
+#sportlife {
+margin:  -33px 50px;
+}
+#abon {
+    margin: 40px 30px;
+}
+#buy {
+    margin-top: 60px;
+    font-size: 32px;
+    color: darkred;
+}
+#line{
+margin: 30px 0px 10px 65px;
+    font-size: 35px
+
+}
+
+span {
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 55px;
+
+}
+span1 {
+  color: darkred;
+}
+
+#lan {
+    font-size: 11px;
+    margin: 65px 0px 0px 40px;
+    color: indigo;
+}
+
+span2:hover, span3:hover {
+    color: yellow;
+}
+span3 {
+border-bottom: 1px solid;
+line-height: 16px;
+}
+span2, span3 {
+    cursor: pointer;
+}
+
+
+
+#navigation {
+    list-style-type: none;
+    margin-top: -46px;
+    margin-left: 210px;
+    position: absolute;
+}
+
+li a {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+
+    padding: 6px 30px;
+    border-right: 1px solid grey;
+}
+
+li a:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+
+}
+li.dropdown {
+ display: inline-block;
+
+}
+
+.dropbtn {
+    background-color: green;
+    color: aliceblue;
+}
+.dropbtn:hover{
+    background-color: green;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 250px;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: wheat;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: green;
+}
+
+.dropdown-content a:hover {
+background-color: green;
+text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+
+
+
