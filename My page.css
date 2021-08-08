@@ -133,6 +133,77 @@ display: block;
 
 }
 
+#section {
+    width: 1200px;
+    height: 1200px;
+    background-color: lightsteelblue;
+    margin: -16px 170px;
+}
+
+#family {
+    margin:  10px 0px 10px 79px;
+    float: left;
+    width: 700px;
+    height: 300px;
+}
+#check{
+
+    width: 335px;
+    height: 300px;
+    margin: 10px 0px 0px 10px;
+}
+
+#velo1 img {
+    width: 350px;
+    height: 200px;
+    margin: 0px 0px 0px 80px;
+}
+#yoga img {
+ width: 340px;
+ height: 200px;
+ margin: -203px 0px 0px 440px;
+float: left;
+}
+
+ #bar ul {
+    list-style-type: none;
+    float: left;
+    margin: -203px 0px 0px 750px;
+
+}
+#bar li a{
+    display: block;
+    background-color: royalblue;
+    width: 273px;
+    height: 20.3px;
+
+}
+.sh {
+   font-family: sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+.sh:hover {
+    text-decoration: underline;
+}
+ ul. sh {
+    list-style-type: square;
+}
+li a.sh::before {
+    content: "◆";
+    color: red;
+}
+ #bar ul li {
+    border-bottom: 1px solid #A9A9A9;
+}
+
+
+#bar li a:hover {
+    background-color:darkblue;
+    }
+
+
 
 
 
